@@ -1,0 +1,20 @@
+.contener__big-img{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    margin: 20px 20px 0 50px;
+    justify-content: flex-start;
+}
+.big-img_photo > img{
+  width: 100%;
+  min-width: 400px;  
+}
+.big-img_title > h1 {
+  font-size: 25px;
+  margin-top: 10px ;
+}
+.big-img_descricao > p{
+    color: gray;
+    margin-top: 5px;
+}

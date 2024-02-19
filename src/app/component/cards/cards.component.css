@@ -1,0 +1,25 @@
+ .contener_cards{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.cards-photo > img {
+    width: 100%;
+    min-width: 200px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+.cards-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-text > h1 {
+    padding-left: 12px;
+    font-size: 20px;
+
+}
