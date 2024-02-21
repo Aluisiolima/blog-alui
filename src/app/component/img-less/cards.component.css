@@ -8,6 +8,7 @@
 
 .cards-photo > img {
     width: 100%;
+    max-width: 200px;
     min-width: 200px;
     height: 130px;
     margin-top: 20px;
@@ -15,11 +16,14 @@
 
 .cards-text {
     display: flex;
-    justify-content: center;
     align-items: center;
+    max-width: 350px;
+    min-width: 300px;
+    overflow: auto;
+    max-height: 154px;
 }
 .cards-text > h1 {
     padding-left: 12px;
-    font-size: 20px;
+    font-size: 15px;
 
 }

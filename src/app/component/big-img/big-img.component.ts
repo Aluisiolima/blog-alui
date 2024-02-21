@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-big-img',
@@ -6,6 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./big-img.component.css']
 })
 export class BigImgComponent implements OnInit {
+  @Input()
+  bigImg:string =''
+  @Input()
+  bigTitle:string =''
+  @Input()
+  bigDescription:string =''
+  @Input()
+  id:string="0"
+
 
   constructor() { }
 

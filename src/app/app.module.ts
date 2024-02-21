@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 import { TitleComponent } from './component/title/title.component';
 import { BigImgComponent } from './component/big-img/big-img.component';
 import { HomeComponent } from './page/home/home.component';
-import { CardsComponent } from './component/cards/cards.component';
+import { CardsComponent } from './component/img-less/cards.component';
 import { MenuComponent } from './component/menu/menu.component';
+import { ComponeteComponent } from './page/componete/componete.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { MenuComponent } from './component/menu/menu.component';
     HomeComponent,
     CardsComponent,
     MenuComponent,
+    ComponeteComponent,
     
   ],
   imports: [

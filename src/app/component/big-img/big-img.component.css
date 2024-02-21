@@ -9,6 +9,8 @@
 .big-img_photo > img{
   width: 100%;
   min-width: 400px;  
+  max-width: 400px;
+  
 }
 .big-img_title > h1 {
   font-size: 25px;
